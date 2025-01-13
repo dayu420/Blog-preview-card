@@ -154,19 +154,23 @@ Imported fonts (Figtree):
 }
 
 @media (min-width: 768px) {
-  .blog-card-title {
-    font-size: 24px;
+  .blog-preview-card {
+    max-width: 386px;
   }
 
-  .blog-card-snippet {
-    font-size: 16px;
+  .blog-card-title {
+    font-size: 24px;
   }
 
   .blog-card-tag {
     font-size: 14px;
   }
 
-  .blog-preview-card {
-    max-width: 386px;
+  .blog-card-publish-date {
+    font-size: 14px;
+  }
+
+  .blog-card-snippet {
+    font-size: 16px;
   }
 }
