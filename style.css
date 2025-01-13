@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(/assets/fonts/static/Figtree-SemiBold.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url(/assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+/* 
+
+Imported fonts (Figtree):
+
+.figtree-<uniquifier> {
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 500, 900;
+  font-style: normal;
+}
+
+
+*/
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray500: hsl(0, 0%, 42%);
+  --gray950: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: var(--yellow);
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-preview-card {
+  width: 90%;
+  max-width: 320px;
+  padding: 24px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 7px 4px 0 2px var(--gray950);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  gap: 12px;
+}
+
+.blog-card-illustration {
+  display: block;
+  width: 280px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.blog-card-tag {
+  display: inline-block;
+  width: max-content;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin: 12px 0 0 0;
+  font-size: 12px;
+  font-weight: 900;
+  background-color: var(--yellow);
+  line-height: 150%;
+}
+
+.blog-card-publish-date {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.blog-card-title {
+  font-family: "Figtree", serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.blog-card-title:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+
+.blog-card-snippet {
+  font-family: "Figtree", serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.blog-card-tag,
+.blog-card-publish-date,
+.blog-card-title,
+.blog-card-snippet,
+.blog-card-author-avatar,
+.blog-card-author {
+  line-height: 150%;
+}
+
+.blog-card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.blog-card-author-avatar {
+  display: block;
+  width: 32px;
+}
+
+.blog-card-author {
+  font-family: "Figree", serif;
+  font-size: 14px;
+  font-weight: 900;
+  margin-left: 12px;
+}
+
+.page-footer {
+  margin-top: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
