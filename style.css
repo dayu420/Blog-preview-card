@@ -157,4 +157,8 @@ Imported fonts (Figtree):
   .blog-card-tag {
     font-size: 14px;
   }
+
+  .blog-preview-card {
+    max-width: 386px;
+  }
 }
