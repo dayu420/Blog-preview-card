@@ -127,7 +127,7 @@ Imported fonts (Figtree):
 }
 
 .blog-card-author {
-  font-family: "Figree", serif;
+  font-family: "Figtree", serif;
   font-size: 14px;
   font-weight: 900;
   margin-left: 12px;
@@ -143,4 +143,18 @@ Imported fonts (Figtree):
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  .blog-card-title {
+    font-size: 24px;
+  }
+
+  .blog-card-snippet {
+    font-size: 16px;
+  }
+
+  .blog-card-tag {
+    font-size: 14px;
+  }
 }
