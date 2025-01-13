@@ -103,6 +103,7 @@ Imported fonts (Figtree):
 }
 
 .blog-card-snippet {
+  margin-bottom: 12px;
   font-size: 14px;
   font-weight: 500;
   color: var(--gray500);
@@ -162,10 +163,7 @@ Imported fonts (Figtree):
     font-size: 24px;
   }
 
-  .blog-card-tag {
-    font-size: 14px;
-  }
-
+  .blog-card-tag,
   .blog-card-publish-date {
     font-size: 14px;
   }
