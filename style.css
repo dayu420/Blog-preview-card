@@ -75,6 +75,7 @@ Imported fonts (Figtree):
   padding: 4px 12px;
   border-radius: 4px;
   margin: 12px 0 0 0;
+  font-family: "Figree", serif;
   font-size: 12px;
   font-weight: 900;
   background-color: var(--yellow);
@@ -87,7 +88,6 @@ Imported fonts (Figtree):
   line-height: 150%;
 }
 .blog-card-title {
-  font-family: "Figtree", serif;
   font-size: 20px;
   font-weight: 900;
   line-height: 150%;
@@ -99,9 +99,15 @@ Imported fonts (Figtree):
 }
 
 .blog-card-snippet {
-  font-family: "Figtree", serif;
   font-size: 14px;
   font-weight: 500;
+}
+
+.blog-card-tag,
+.blog-card-publish-date,
+.blog-card-title,
+.blog-card-snippet {
+  font-family: "Figtree", serif;
 }
 
 .blog-card-tag,
