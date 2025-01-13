@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Figtree";
-  src: url(/assets/fonts/static/Figtree-SemiBold.ttf);
+  src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Figtree";
-  src: url(/assets/fonts/static/Figtree-ExtraBold.ttf);
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
   font-weight: 900;
   font-style: normal;
 }
